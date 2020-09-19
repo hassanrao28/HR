@@ -1,0 +1,21 @@
+.contact-input{height:50px;}
+.contact-up{margin-top: -1%;}
+html{scroll-behavior: smooth;}
+.footer-up{ margin-bottom: 3px;}
+.myskills-percentage-1{width: 95%;}
+.myskills-percentage-2{width: 98%;}
+.myskills-percentage-3{width: 73%;}
+.myskills-percentage-4{width: 66%;}
+.myskills-percentage-5{width: 48%;}
+.myskills-percentage-6{width: 43%;}
+.footer-font-size{font-size: 1.5rem;}
+.contact-icons-size{font-size: 30px;}
+.mini-contact-btn-center{margin-left: 45%;}
+.contact-center{margin-left: 11%;color: white;}
+.about-p{margin-left: 50%;margin-top: -12%;font-size: 22px;}
+.about-btn{position: absolute;top:123%;left: 50%;font-weight: bold;}
+
+@media screen and (min-width: 505px) {
+.about-btn{position: absolute;top:129%;left: 50%;font-weight: bold;
+
+}

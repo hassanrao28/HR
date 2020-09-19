@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR.com</title>
+<!-- for on scroll animation -->
+  <link rel="stylesheet" href="E:\HR PROJECTS\practice\Websites\HR\animation files/aos.css" />
+ <!--  for carousel and bootstrap all files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-grid.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-reboot.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap css/bootstrap.min.css.map">
+    <!-- for styling of html element -->
+    <link rel="stylesheet" href="css/style.css">
+     <!--  for carousel -->
+    <link rel="stylesheet" href="css/carousel.css">
+
+<link rel="stylesheet" type="text/css" href="E:\HR PROJECTS\practice\Websites\HR\fontawesome-free-5.14.0-web\css/all.css">
+  <!--   <script src="https://kit.fontawesome.com/66cd25625e.js" crossorigin="anonymous"></script> -->
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+<script type="text/javascript" src="js/bootstrap js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="js/bootstrap js/bootstrap.bundle.js.map"></script>
+<script type="text/javascript" src="js/bootstrap js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/bootstrap js/bootstrap.bundle.min.js.map"></script>
+<script type="text/javascript" src="js/bootstrap js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap js/bootstrap.js.map"></script>
+<script type="text/javascript" src="js/bootstrap js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap js/bootstrap.min.js.map"></script>
+
+    <link rel="icon" href="img/web_icon.jpg">
+</head>
+<body>
+ <!--    fixed top navbar -->
+
+ <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  	<a class="navbar-brand" href="./index.html"><img src="img/logo.jpg" width="100"><font class="ml-3">HASSAN RAO</font></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto" id="myul">
+        <li class="nav-item active">
+          <a class="nav-link active" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#myskills">MY SKILLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactus">CONTACT US</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SEARCH</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<!-- slider --><br>
+
+<main role="main" data-aos="zoom-out">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slide1.jpg">
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>WEB DEVELOPER</h1>
+            <p>all websites in the world are created by programming</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+       <img src="img/slide2.jpg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Parts of Programing</h1>
+            <p>programing has three parts.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      <img src="img/slide3.jpg">
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Front-End Development</h1>
+            <p>Front-End development languages give him output and that work in front of page.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      <img src="img/slide4.jpg">
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>Back-End Development</h1>
+            <p>Back-End Development languages not give him output but that are working in back of the page.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+      <img src="img/slide5.jpg">
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>Database</h1>
+            <p>Database is use to store data that come from contact form.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</main>
+
+<!-- ABOUT SECTION -->
+
+<section id="about">
+	<h1 class="text-dark text-center">ABOUT</h1>
+	<hr class="w-25">
+<br><br>
+		<div class="row">
+			<img src="img/slide5.jpg" class="col-lg-5 col-md-5 col-12" data-aos="slide-up">
+			<h1 class="ml-5 pl-5" data-aos="flip-up">WHO AM I?</h1>
+			<span data-aos="flip-up" class="about-p">I am HASSAN RAO.I am a web Developer.This website created by me.I am a student of 9th class.My age is 15YEARS.I am From Pakistan.</span>
+			<a class="btn btn-success about-btn" href="#myskills" data-aos="flip-up">Learn More</a>
+		</div>
+</section>
+
+<!-- MY SKILLS --><br><br><br>
+<section>
+	<h1 class="text-center text-dark" data-aos="zoom-in">MY SKILLS</h1>
+		<hr class="w-25">
+<br><br>
+ <div class="ml-3" id="myskills">
+            <h2 data-aos="flip-left">My Skills</h2>
+            <p data-aos="flip-left">I am a web programer.I learned all about These languages.I Have learned fornt-end development,back-end development and the last is database.THese are part of programing.it's languages are defined.</p> 
+            <br>
+            <h3>HTML</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated text-white font-weight-bold myskills-percentage-1" data-aos="fade-right">95%</div>
+            </div>
+            
+            <br>
+            <h3>CSS</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated  text-white font-weight-bold myskills-percentage-2" data-aos="fade-right">98%</div>
+            </div>
+
+            <br>
+            <h3>JAVA-SCRIPT</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated  text-white font-weight-bold myskills-percentage-3" data-aos="fade-right">73%</div>
+            </div>
+
+            <br>
+            <h3>BOOTSTRAP</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated  text-white font-weight-bold myskills-percentage-4" data-aos="fade-right">66%</div>
+            </div>
+
+            <br>
+            <h3>JQUERY</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated  text-white font-weight-bold myskills-percentage-5" data-aos="fade-right">48%</div>
+            </div>
+
+            <br>
+            <h3>PHP</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated  text-white font-weight-bold myskills-percentage-6" data-aos="fade-right">43%</div>
+            </div>
+         </div>
+</section><br><br><br><br>
+
+<!-- mini contact -->
+
+<section class="jumbotron bg-success" data-aos="flip-left">
+	<h1 class="text-capitalize text-white text-center pb-2" data-aos="flip-right">you can contact me at G-Mail</h1>
+		<h3 class="text-capitalize text-white text-center pb-3" data-aos="flip-right">infohassanrao@gmail.com</h3>
+		<a href="#contactus" class="btn btn-warning text-white font-weight-bold mini-contact-btn-center" data-aos="flip-right">CONTACT US NOW</a>
+</section>
+
+<!-- my services --><br><br><br>
+
+<section id="services">
+<h1 class="text-center" data-aos="slide-right">OUR SERVICES</h1>
+<hr class="w-25 mb-5">
+<div class="card-deck row">
+	
+	<div class="card card-body col-lg-4 col-md-4 col-12"data-aos="fade-right">
+		<img src="img/card1.jpg" class="img-fluid">
+		<h1 class="card-header">WEB DVELOPMENT</h1>
+		<p>I expert in web development.</p>
+		<a href="#" class="font-weight-bold btn btn-primary">Learn More</a>
+	</div>
+
+	<div class="card card-body col-lg-4 col-md-4 col-12"data-aos="flip-down">
+		<img src="img/card2.jpg" class="img-fluid">
+		<h1 class="card-header">YOUTUBING</h1>
+		<p>We have a technical youtube channel please visit.</p>
+		<a href="#" class="font-weight-bold btn btn-danger">Learn More</a>
+	</div>
+
+	<div class="card card-body col-lg-4 col-md-4 col-12"data-aos="fade-left">
+		<img src="img/card3.jpg" class="img-fluid">
+		<h1 class="card-header">ENGINEERING</h1>
+		<p>I am a software engineer.</p>
+		<a href="#" class="font-weight-bold btn btn-dark">Learn More</a>
+	</div>
+</div>
+</section>
+
+<!-- contact us --><br><br><br>
+
+<section id="contactus" class="footer-up">
+	<h1 class="text-center"data-aos="slide-left">CONTACT US</h1>
+	<hr class="w-25 mb-5">
+
+<div class="bg-danger text-white pl-3">
+            <h2 class="pt-3 mb-3" data-aos="flip-up">CONTACT</h2>
+            <p class="pb-5 text-capitalize" data-aos="flip-down">You can contact us simply by typing your details in these fields.</p> </div>
+<form class="bg-dark text-white pt-5 contact-up " data-aos="flip-right" action="index.php" method="POST">
+                    <div class="form-group">
+                        <div class="input-group nput-group-lg w-75 contact-center" data-aos="flip-left">
+                            <i class="fas fa-user-tie p-2 bg-warning text-dark contact-icons-size"></i>
+                             <input type="text" class="form-control bg-dark text-white contact-input" name="name" placeholder="Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group nput-group-lg w-75 contact-center" data-aos="flip-left">
+                            <i class="fas fa-envelope p-2 bg-warning text-dark contact-icons-size"></i>
+                             <input type="text" class="form-control bg-dark text-white contact-input" name="email" placeholder="E-Mail">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group nput-group-lg w-75 contact-center" data-aos="flip-left">
+                            <i class="fas fa-mobile-alt p-2 bg-warning text-dark contact-icons-size"></i>
+                             <input type="text" class="form-control bg-dark text-white contact-input" name="number" placeholder="Phone-Number">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group nput-group-lg w-75 contact-center" data-aos="flip-left">
+                            <i class="fas fa-comment-dots p-2 bg-warning text-dark contact-icons-size"></i>
+                             <textarea class="form-control bg-dark text-white contact-input" name="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+
+                    
+                    <input type="submit" name="button" class="btn btn-danger contact-center mb-5" data-aos="slide-left" value="SUBMIT" >
+                </form>
+
+</section>
+<footer class="p-1 bg-primary text-white text-center pt-3 footer-font-size" data-aos="flip-down">
+	<p>CopyRight@ http://www.hassanrao28.github.io/HR</p>
+</footer>
+
+<script src="E:\HR PROJECTS\practice\Websites\HR\animation files/aos.js"></script>
+  <script>
+    AOS.init({
+    	 // offset: 120,
+    	  duration: 1000,
+    });
+  </script>
+</body>
+</html>
