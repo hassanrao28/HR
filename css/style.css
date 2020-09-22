@@ -1,3 +1,5 @@
+.icon-hover:hover{color: white;
+transition: 0.3s linear}
 .contact-input{height:50px;}
 .contact-up{margin-top: -1%;}
 html{scroll-behavior: smooth;}
@@ -5,7 +7,7 @@ html{scroll-behavior: smooth;}
 .myskills-percentage-1{width: 95%;}
 .myskills-percentage-2{width: 98%;}
 .myskills-percentage-3{width: 73%;}
-.myskills-percentage-4{width: 66%;}
+.myskills-percentage-4{width: 80%;}
 .myskills-percentage-5{width: 48%;}
 .myskills-percentage-6{width: 43%;}
 .footer-font-size{font-size: 1.5rem;}
@@ -14,8 +16,23 @@ html{scroll-behavior: smooth;}
 .contact-center{margin-left: 11%;color: white;}
 .about-p{margin-left: 50%;margin-top: -12%;font-size: 22px;}
 .about-btn{position: absolute;top:123%;left: 50%;font-weight: bold;}
-
-@media screen and (min-width: 505px) {
-.about-btn{position: absolute;top:129%;left: 50%;font-weight: bold;
-
-}
+/* MOBILE VERSION STYLING AND RESPONSIVE */
+@media screen and (max-width: 500px){
+.mini-contact-h1{font-size: 22px;}
+.mini-contact-h3{font-size: 18px;}
+.footer-font-size{font-size: 1rem;}
+.carousel-caption h1 {font-size: 2rem;}
+.about-h1{padding-top: 5%;font-size: 32px;}
+.about-p{margin-top:5%;font-size: 17px;margin-left: 20px;}
+.mini-contact-btn-center{margin-left: 35%;font-size: 14px;}
+.about-btn{position: absolute;top:154% !important;left: 3%;font-weight: bold;}
+.carousel-caption p {margin-bottom: 1.25rem;font-size: 0.8rem;line-height: 1.4;}
+.carousel-item > img {position: absolute;top: 0;left: 0;min-width: 100%;width: 20px;height: 32rem;}}
+/* TABLET VERSION STYLING AND RESPONSIVE */
+@media screen and (max-width: 700px){
+.tab-style-h1{ font-size: 16px; }
+.about-h1{padding-top: 5%;font-size: 32px;}
+.mini-contact-btn-center{margin-left: 37%;font-size: 14px;}
+.about-p{margin-top:5.5%;font-size: 17px;margin-left: 40px;}
+.about-btn{position: absolute;top:164%;left: 3%;font-weight: bold;}
+.carousel-item > img {position: absolute;top: 0;left: 0;min-width: 100%;width: 5px;height: 32rem;}}

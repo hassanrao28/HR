@@ -53,24 +53,25 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto" id="myul">
         <li class="nav-item active">
-          <a class="nav-link active" href="index.html">HOME</a>
+          <a class="nav-link active" href="index.html"><i class="fas fa-home d-inline"></i>HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">ABOUT</a>
+          <a class="nav-link" href="#about"><i class="fas fa-user-cog d-inline"></i> ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#myskills">MY SKILLS</a>
+          <a class="nav-link" href="#myskills"><i class="fas fa-dice d-inline"></i> MY SKILLS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#services">SERVICES</a>
+          <a class="nav-link" href="#services"><i class="fas fa-donate d-inline"></i> SERVICES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contactus">CONTACT US</a>
+          <a class="nav-link" href="#contactus"><i class="fas fa-envelope-open-text d-inline"></i> CONTACT US</a>
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SEARCH</button>
+        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SEARCH</button> -->
+        <a href="index.html" class="text-decoration-none text-success"><i class="fas fa-search icon-hover"></i></a>
       </form>
     </div>
   </nav>
@@ -156,11 +157,11 @@
 
 <section id="about">
 	<h1 class="text-dark text-center">ABOUT</h1>
-	<hr class="w-25">
+	<hr class="w-25 hr-mobile">
 <br><br>
 		<div class="row">
 			<img src="img/slide5.jpg" class="col-lg-5 col-md-5 col-12" data-aos="slide-up">
-			<h1 class="ml-5 pl-5" data-aos="flip-up">WHO AM I?</h1>
+			<h1 class="ml-5 pl-5 about-h1" data-aos="flip-up">WHO AM I?</h1>
 			<span data-aos="flip-up" class="about-p">I am HASSAN RAO.I am a web Developer.This website created by me.I am a student of 9th class.My age is 15YEARS.I am From Pakistan.</span>
 			<a class="btn btn-success about-btn" href="#myskills" data-aos="flip-up">Learn More</a>
 		</div>
@@ -169,7 +170,7 @@
 <!-- MY SKILLS --><br><br><br>
 <section>
 	<h1 class="text-center text-dark" data-aos="zoom-in">MY SKILLS</h1>
-		<hr class="w-25">
+		<hr class="w-25 hr-mobile">
 <br><br>
  <div class="ml-3" id="myskills">
             <h2 data-aos="flip-left">My Skills</h2>
@@ -195,7 +196,7 @@
             <br>
             <h3>BOOTSTRAP</h3>
             <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated  text-white font-weight-bold myskills-percentage-4" data-aos="fade-right">66%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated  text-white font-weight-bold myskills-percentage-4" data-aos="fade-right">80%</div>
             </div>
 
             <br>
@@ -215,8 +216,8 @@
 <!-- mini contact -->
 
 <section class="jumbotron bg-success" data-aos="flip-left">
-	<h1 class="text-capitalize text-white text-center pb-2" data-aos="flip-right">you can contact me at G-Mail</h1>
-		<h3 class="text-capitalize text-white text-center pb-3" data-aos="flip-right">infohassanrao@gmail.com</h3>
+	<h1 class="text-capitalize text-white text-center pb-2 mini-contact-h1" data-aos="flip-right">you can contact me at G-Mail</h1>
+		<h3 class="text-capitalize text-white text-center pb-3 mini-contact-h3" data-aos="flip-right">infohassanrao@gmail.com</h3>
 		<a href="#contactus" class="btn btn-warning text-white font-weight-bold mini-contact-btn-center" data-aos="flip-right">CONTACT US NOW</a>
 </section>
 
@@ -224,26 +225,26 @@
 
 <section id="services">
 <h1 class="text-center" data-aos="slide-right">OUR SERVICES</h1>
-<hr class="w-25 mb-5">
+<hr class="w-25 mb-5 hr-mobile">
 <div class="card-deck row">
 	
 	<div class="card card-body col-lg-4 col-md-4 col-12"data-aos="fade-right">
 		<img src="img/card1.jpg" class="img-fluid">
-		<h1 class="card-header">WEB DVELOPMENT</h1>
+		<h1 class="card-header tab-style-h1">WEB DVELOPMENT</h1>
 		<p>I expert in web development.</p>
 		<a href="#" class="font-weight-bold btn btn-primary">Learn More</a>
 	</div>
 
-	<div class="card card-body col-lg-4 col-md-4 col-12"data-aos="flip-down">
+	<div class="card card-body col-lg-4 col-md-12 col-12"data-aos="flip-down">
 		<img src="img/card2.jpg" class="img-fluid">
-		<h1 class="card-header">YOUTUBING</h1>
+		<h1 class="card-header tab-style-h1">YOUTUBING</h1>
 		<p>We have a technical youtube channel please visit.</p>
 		<a href="#" class="font-weight-bold btn btn-danger">Learn More</a>
 	</div>
 
-	<div class="card card-body col-lg-4 col-md-4 col-12"data-aos="fade-left">
+	<div class="card card-body col-lg-4 col-md-12 col-12"data-aos="fade-left">
 		<img src="img/card3.jpg" class="img-fluid">
-		<h1 class="card-header">ENGINEERING</h1>
+		<h1 class="card-header tab-style-h1">ENGINEERING</h1>
 		<p>I am a software engineer.</p>
 		<a href="#" class="font-weight-bold btn btn-dark">Learn More</a>
 	</div>
@@ -254,12 +255,12 @@
 
 <section id="contactus" class="footer-up">
 	<h1 class="text-center"data-aos="slide-left">CONTACT US</h1>
-	<hr class="w-25 mb-5">
+	<hr class="w-25 mb-5 hr-mobile">
 
 <div class="bg-danger text-white pl-3">
             <h2 class="pt-3 mb-3" data-aos="flip-up">CONTACT</h2>
             <p class="pb-5 text-capitalize" data-aos="flip-down">You can contact us simply by typing your details in these fields.</p> </div>
-<form class="bg-dark text-white pt-5 contact-up " data-aos="flip-right" action="" method="POST">
+<form class="bg-dark text-white pt-5 contact-up " data-aos="flip-right" action="contact_responce.php" method="POST">
                     <div class="form-group">
                         <div class="input-group nput-group-lg w-75 contact-center" data-aos="flip-left">
                             <i class="fas fa-user-tie p-2 bg-warning text-dark contact-icons-size"></i>
@@ -292,13 +293,15 @@
                     <input type="submit" name="button" class="btn btn-danger contact-center mb-5" data-aos="slide-left" value="SUBMIT" >
                 </form>
 
-</section><div class="container" style="margin-left: 10%;">
-<h1>sorry your filled data in contact section will not send to HR</h1>
-<h2>you can contact me at this G-Mail</h2>
-<h3>infohassanrao@gmail.com</h3>  
-</div>
+</section>
 <footer class="p-1 bg-primary text-white text-center pt-3 footer-font-size" data-aos="flip-down">
-	<p>CopyRight@ http://hassanrao28.github.io/HR</p>
+	<p>CopyRight@ http://hassanrao28.github.io/HR/</p>
+</footer>
+
+ <hr class="bg-danger">
+
+<footer class="p-1 bg-success text-white text-center pt-3 footer-font-size" data-aos="flip-left">
+  <p>CopyRight@ http://hassanrao28.000webhostapp.com</p>
 </footer>
 
 <script src="animation files/aos.js"></script>
